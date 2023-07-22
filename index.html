@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biker zone website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+          
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
 
     <style>
         .font-poppins{
@@ -101,6 +115,84 @@
                     <button class="px-12 py-3 rounded-md text-[#E76F51] border-2 border-orange-400">Read More</button>
                 </div>
                </div>
+        </section>
+
+
+        <!-- review card -->
+
+        <section class="my-14">
+            <h3 class="text-[#0A0826] font-poppins font-semibold text-4xl text-center">Happy <span class="text-[#E76F51]">Clients says</span></h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-10">
+            <div class="card p-9 bg-base-100 shadow-xl border border-gray-400">
+                <figure><img class="w-36" src="./assets/others/user-1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                 
+                  <p>Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="rating justify-center">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                  <div class=" text-center space-y-4 mt-4">
+                    <h4 class="text-sm font-semibold text-info">Regina Miles</h4>
+                    <p class="text-sm font-semibold">Banker</p>
+                    
+                  </div>
+                </div>
+              </div>
+            <div class="card p-9 bg-base-100 shadow-xl border border-gray-400">
+                <figure><img class="w-36" src="./assets/others/user-2.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                 
+                  <p>Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="rating justify-center">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                  <div class=" text-center space-y-4 mt-4">
+                    <h4 class="text-sm font-semibold text-info">Regina Miles</h4>
+                    <p class="text-sm font-semibold">Banker</p>
+                    
+                  </div>
+                </div>
+              </div>
+            <div class="card p-9 bg-base-100 shadow-xl border border-gray-400">
+                <figure><img class="w-36" src="./assets/others/user-3.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                 
+                  <p>Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="rating justify-center">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                  <div class=" text-center space-y-4 mt-4">
+                    <h4 class="text-sm font-semibold text-info">Regina Miles</h4>
+                    <p class="text-sm font-semibold">Banker</p>
+                    
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
         </section>
               
     </main>
